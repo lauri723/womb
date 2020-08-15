@@ -6,7 +6,6 @@
     height: 100%;
     opacity: 0;
     visibility: hidden;
-    cursor: pointer;
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
@@ -21,7 +20,6 @@
     width: 24rem;
     border: 2px solid #f79999;
     border-radius: 0.5rem;
-    cursor: pointer;
 }
 
 .close-button {
@@ -41,6 +39,10 @@
     visibility: visible;
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.clickable {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 575px) {
