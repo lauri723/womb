@@ -77,11 +77,12 @@ main {
     justify-content: center;
 }
 .home-video {
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    margin: 50px 100px 50px 0px;
+    margin: 50px 100px 0px 0px;
+    position: relative;
+    bottom: 40px;
 }
-
 .home-p-and-p {
     display: flex;
     flex-direction: row;
