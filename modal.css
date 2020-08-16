@@ -41,6 +41,10 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .modal-content {
+        width: 22rem;
+
 
 
 
