@@ -7,8 +7,9 @@ body {
 
 nav {
     display: flex;
-    height: 25px;
+    height: 40px;
     background-color: transparent;
+    margin-bottom: 20px;
   }
 
 nav a {
@@ -38,7 +39,6 @@ nav a:hover {
     display: flex;
     flex: 1;
     padding: none;
-    margin-top: 10px;
     justify-content: center;
     text-shadow: 2px 2px 5px #f79999;
 }
