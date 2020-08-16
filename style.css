@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding: 0px 60px;
-    background: linear-gradient(135deg, #ffe6ee, #ffffe6 70%);
+    background: linear-gradient(#ffe6ee, #ffffe6, #ffe6ee);
 } 
 
 nav {
@@ -156,7 +156,6 @@ button.button {
     body .logo {order:2}
     body .home-video {order:3}
     body .home-blurb {order:4}
-
     nav a{
       /* flex: none; */
       display: flex;
@@ -191,8 +190,10 @@ button.button {
     .home-p-and-p {
       display: flex;
       flex-direction: column;
-    }
-      
+    } 
+    button.button {
+      padding: 4px 50px;
+    }    
 }
 
 @media screen and (max-width: 670px) {
