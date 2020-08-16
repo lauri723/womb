@@ -7,7 +7,7 @@ body {
 
 nav {
     display: flex;
-    height: 40px;
+    height: 25px;
     background-color: transparent;
   }
 
@@ -56,7 +56,6 @@ main {
     flex-direction: row;
     align-items: center;
   }
-
 .home-paragraph {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -68,20 +67,27 @@ main {
     padding: 0px 40px;
     margin: 0px 60px;
 }
+.home-p {
+  margin-bottom: 0px;
+}
 .logo-tag{
     color: #f79999;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     display: flex;
     padding: none;
     justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.look-forward {
+  margin-top: 10px;
+  font-size: 1.1em;
 }
 .home-video {
     align-items: center;
     justify-content: center;
-    margin: 50px 100px 0px 0px;
-    position: relative;
-    bottom: 40px;
+    margin: 0px 100px 0px 0px;
 }
 .home-p-and-p {
     display: flex;
