@@ -59,6 +59,7 @@ main {
 .home-paragraph {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    line-height: 1.4em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -68,19 +69,23 @@ main {
     margin: 0px 60px;
 }
 .home-p {
-  margin-bottom: 0px;
+  margin-top: 25px;
 }
 .logo-tag{
     color: #f79999;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
     font-weight: bold;
     display: flex;
     padding: none;
     justify-content: center;
+    align-items: center;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .look-forward {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
   margin-top: 10px;
   font-size: 1.1em;
 }
@@ -95,7 +100,7 @@ main {
     width: 100%;
     align-items: center;
     justify-items: center;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 .trigger {
