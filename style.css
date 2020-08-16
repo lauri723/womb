@@ -2,32 +2,33 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     padding: 0px 60px;
-    background: linear-gradient(135deg, #fffcfc, #fffff0 70%);
+    background: linear-gradient(135deg, #ffe6ee, #ffffe6 70%);
 } 
 
 nav {
     display: flex;
-    height: 40px;
-    background-color: transparent;
+    height: 60px;
+    width: 100%;
     margin-bottom: 20px;
+    border-radius: 4px;
   }
 
 nav a {
     flex: 2;
     text-decoration: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #F79999; 
+    color: #ff699b; 
     transition: all 0.2s;
 }
 
 nav a:hover {
-  background-color: #F79999;
+  background-color: #fc97b9;
   color: #787676;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .logo {
@@ -40,7 +41,7 @@ nav a:hover {
     flex: 1;
     padding: none;
     justify-content: center;
-    text-shadow: 2px 2px 5px #f79999;
+    text-shadow: 2px 2px 5px #fc97b9;
 }
 
 .logo h1 {
@@ -58,14 +59,15 @@ main {
     align-items: center;
   }
 .home-paragraph {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     font-weight: 100;
     line-height: 1.4em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 0px 40px;
     margin: 0px 60px;
 }
@@ -73,7 +75,7 @@ main {
   margin-top: 25px;
 }
 .logo-tag{
-    color: #f79999;
+    color: #ff699b;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
@@ -106,7 +108,7 @@ main {
 
 button.button {
     font-family: 'Roboto', sans-serif;
-    background-color: #F79999; 
+    background-color: #fc97b9; 
     padding: 8px;
     text-decoration: none;
     display: flex;
@@ -117,17 +119,17 @@ button.button {
     color: white;
     border: 2px solid white;
     outline: none;
-    border-radius: 8px; 
+    border-radius: 4px; 
   }
 
   button.button:hover {
     background-color: white;
-    color: #F79999;
+    color: #ff699b;
     outline: none;
   }
 
   .modal-content h1, .modal-content h2, .modal-content h3, .home-contact {
-    color: #F79999;
+    color: #ff699b;
     font-family: 'Open Sans Condensed', sans-serif;
   }
 
@@ -136,7 +138,7 @@ button.button {
   }
 
   .modal-content a {
-    color: #F79999;
+    color: #ff699b;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.2em;
   }
@@ -147,7 +149,6 @@ button.button {
       display: flex;
       flex-direction: column;
       margin: auto;
-      padding: 0%;
       align-items: center;
       justify-content: center;
     }
@@ -157,7 +158,7 @@ button.button {
     body .home-blurb {order:4}
 
     nav a{
-      flex: none;
+      /* flex: none; */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -194,7 +195,10 @@ button.button {
       
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
+  body {
+    padding: 0%;
+  }
   main { 
     display: flex;
     flex-direction: column;
@@ -204,9 +208,12 @@ button.button {
     margin: auto;
   }
   nav {
+      flex: none;
+      background-color: white;
+      height: 100px;
       display: flex;
       flex-direction: column;
-      margin:10px auto 80px auto;
+      margin:10px auto 20px auto;
     }
     nav a {
       padding: 0px;

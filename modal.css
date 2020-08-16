@@ -20,7 +20,7 @@
     transform: translate(-50%, -50%);
     padding: 0rem 1.5rem;
     width: 26rem;
-    border: 5px solid #f79999;
+    border: 5px solid #ff699b;
     border-radius: 0.5rem;
 }
 
@@ -41,12 +41,8 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
     .modal-content {
         width: 22rem;
-
-
-
-
-
-
+    }
+}
