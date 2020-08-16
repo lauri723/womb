@@ -98,29 +98,29 @@ main {
 .home-p-and-p {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     align-items: center;
-    justify-items: center;
+    justify-content: space-around;
     margin: 20px auto;
 }
 
-.trigger {
+button.button {
     font-family: 'Roboto', sans-serif;
     background-color: #F79999; 
     padding: 8px;
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    font-size: 1.0rem; 
+    font-size: 1.1rem; 
+    font-weight: bold;
     color: white;
-    width: 20%;
     border: 2px solid white;
     outline: none;
-    border-radius: 8px;
+    border-radius: 8px; 
   }
 
-  .trigger:hover {
+  button.button:hover {
     background-color: white;
     color: #F79999;
     outline: none;
@@ -190,9 +190,6 @@ main {
     .home-p-and-p {
       display: flex;
       flex-direction: column;
-    }
-    .trigger {
-      width: 60%;
     }
       
 }

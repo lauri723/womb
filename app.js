@@ -1,15 +1,23 @@
-const triggers = document.getElementsByClassName("trigger");
-const triggerArray = Array.from(triggers).entries();
-
-const modals = document.getElementsByClassName("modal");
-const closeButtons = document.getElementsByClassName("close-button");
-
-for (let [index, trigger] of triggerArray) {
-    let triggerIndex = index;
-    function toggleModal() {
-      modals[triggerIndex].classList.toggle("show-modal");
-    }
-    trigger.addEventListener("click", toggleModal);
-    closeButtons[triggerIndex].addEventListener("click", toggleModal);
+var modalBtns = [...document.querySelectorAll(".button")];
+modalBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.getAttribute('data-modal');
+    document.getElementById(modal).style.display = "block";
   }
+});
+
+var closeBtns = [...document.querySelectorAll(".close")];
+closeBtns.forEach(function(btn){
+  btn.onclick = function() {
+    var modal = btn.closest('.modal');
+    modal.style.display = "none";
+  }
+});
+
+window.onclick = function(event) {
+  if (event.target.className === "modal") {
+    event.target.style.display = "none";
+  }
+}
+
 
