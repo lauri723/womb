@@ -154,6 +154,7 @@ footer {
   height: 100vh;
 }
 .home-images {
+  background-color: #ffffe6;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -171,12 +172,13 @@ footer {
 }
 
 .home-blurb {
+  background-color: #ffffe6;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto 10%;
+  margin: auto 100px;
 }
 .look-forward {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -240,11 +242,13 @@ margin-top: 25px;
   height: 100vh;
 }
 .contact {
+  background-color: #ffffe6;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 7%;
+  margin: auto 100px;
 }
 .contact h1, .contact h2 {
   margin-bottom: 0px;
