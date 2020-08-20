@@ -83,6 +83,7 @@ logo {
 }
 
 button.button {
+  flex: 2;
   font-family: 'Roboto', sans-serif;
   background-color: #fc97b9; 
   padding: 8px;
@@ -203,6 +204,7 @@ margin-top: 25px;
   font-size: .9em;
   margin: 10px 10% 0px 10%;
   padding-top: 6%;
+  align-self: center;
 }
 .see-baby span {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -265,94 +267,117 @@ margin-top: 25px;
   margin-top: 4px;
 }
 
-/* @media screen and (max-width: 1165px) {
+
+@media screen and (max-width: 1226px) {
+  #price {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1123px) {
   body {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    align-items: center;
-    justify-content: center;
+    padding: 0px 20px;
   }
-  body nav a {order:1}
-  body .logo {order:2}
-  body .home-video {order:3}
-  body .home-blurb {order:4}
-  nav a{ */
-    /* flex: none; */
-    /* display: flex;
-    justify-content: center;
+  .see-baby {
+    padding: auto 15%;
+    margin: 3% auto;
+  }
+  .pricelist .note {
+    margin: 6px auto;
+  }
+  .pricelist {
+    width: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 20px auto;
+  }
+  .package {
+    width: auto;
     align-items: center;
+  }
+  .pricelist h4 {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1052px) {
+  button.button {
     font-size: 1em;
-    padding: 15px;
+    padding: 4px;
   }
-  main { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
-  }
-  .home-video {
-  .contact   display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-  .img-video {
-    width: 60vw;
-    margin: auto;
-  }
-  .home-paragraph {
-    margin: auto;
-    padding: none;
+}
+
+@media screen and (max-width: 990px) {
+  footer {
+    height: 60px;
   }
   .home-p-and-p {
-    display: flex;
-    flex-direction: column;
-  } 
-  button.button {
-    padding: 4px 50px;
-  }    
-} */
+    margin-bottom: 10px;
+  }
+  #images {
+    height: auto;
+  }
+  .home-blurb {
+    height: auto;
+  }
+  .look-forward {
+    margin: 25% 60px 0px 60px;
+  }
+  .home-paragraph {
+    padding: 0px 20px;
+    margin: 0px;
+  }
+  #price {
+    min-height: auto;
+  }
+  #contact {
+    min-height: auto;
+  }
+  .contact {
+    margin: auto;
+  }
+}
 
-/* @media screen and (max-width: 670px) {
-body {
-  padding: 0%;
+@media screen and (max-width: 852px) {
+  nav a {
+    font-size: 1em;
+  }
+  button.button {
+    font-size: .9em;
+    padding: 2px;
+  }
 }
-main { 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
-}
-nav {
-    flex: none;
-    background-color: white;
-    height: 100px;
-    display: flex;
+
+@media screen and (max-width: 760px) {
+  .body {
+    height: calc(100vh - 42%);
+  }
+  .home-p-and-p {
     flex-direction: column;
-    margin:0px auto 20px auto;
+    width: 60%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  button.button {
+    font-size: 1.1em;
+    padding: 4px 8px;
+    margin-bottom: 3px;
+  }
+  .contact .appointment {
+    margin: 0px 10% 0px 14%;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  nav {
+    flex-direction: column;
+    height: 140px;
   }
   nav a {
-    padding: 0px;
-    flex: none;
-    justify-content: center;
-    align-items: center;
+    font-size: .9em;
   }
-  .logo h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.6em;
-  }
-  .logo h1 :nth-child(1) {order:2}
-  .logo h1 :nth-child(2) {order:1}
-  .logo h1 :nth-child(3) {order:3}
-}  */
-
+}
 
