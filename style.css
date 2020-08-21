@@ -1,6 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 80px);
   font-weight: 100;
   padding: 0px 60px;
   background: linear-gradient(#ffe6ee, #ffffe6, #ffe6ee);
@@ -79,7 +79,8 @@ logo {
   width: 90%;
   align-items: flex-end;
   justify-content: space-around;
-  margin: 20px auto;
+  margin: auto auto 60px auto;
+  padding-bottom: 5%;
 }
 
 button.button {
@@ -152,7 +153,7 @@ footer {
 }
 
 #images {
-  height: 100vh;
+  min-height: 100vh;
 }
 .home-images {
   background-color: #ffffe6;
@@ -162,7 +163,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding-top: 10%;
-  margin: auto 100px;
+  padding-bottom: 18%;
 }
 .home-video {
   display: flex;
@@ -173,13 +174,12 @@ footer {
 }
 
 .home-blurb {
-  background-color: #ffffe6;
-  height: 100vh;
+  background-color: #ffe6ee;
+  min-height: calc(100vh - 40px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto 100px;
 }
 .look-forward {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -197,8 +197,8 @@ footer {
 margin-top: 25px;
 }
 #price {
-  min-height: calc(100vh - 40px);
-  
+  background-color: #ffffe6;
+  min-height: calc(100vh - 80px);
 }
 .see-baby {
   font-size: .9em;
@@ -222,7 +222,8 @@ margin-top: 25px;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: baseline;
-  margin: auto 60px auto 45px;
+  margin: auto;
+  padding-bottom: 5%;
 }
 .package h1 {
   font-size: 1.3em;
@@ -241,16 +242,16 @@ margin-top: 25px;
   margin-bottom: 0px;
 }
 #contact {
-  height: 100vh;
+  min-height: calc(100vh - 20px);
 }
 .contact {
-  background-color: #ffffe6;
+  background-color: #ffe6ee;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: baseline;
   padding-top: 7%;
-  margin: auto 100px;
+  padding-bottom: 5%;
 }
 .contact h1, .contact h2 {
   margin-bottom: 0px;
@@ -316,24 +317,18 @@ margin-top: 25px;
   .home-p-and-p {
     margin-bottom: 10px;
   }
-  #images {
-    height: auto;
+  .home-images {
+    flex-direction: column;
   }
   .home-blurb {
     height: auto;
   }
   .look-forward {
-    margin: 25% 60px 0px 60px;
+    margin: 25% auto 0px auto;
   }
   .home-paragraph {
     padding: 0px 20px;
     margin: 0px;
-  }
-  #price {
-    min-height: auto;
-  }
-  #contact {
-    min-height: auto;
   }
   .contact {
     margin: auto;
@@ -354,9 +349,11 @@ margin-top: 25px;
   .body {
     height: calc(100vh - 42%);
   }
+  .home-images {
+    flex-direction: column;
+  }
   .home-p-and-p {
     flex-direction: column;
-    width: 60%;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 40px;
@@ -366,12 +363,19 @@ margin-top: 25px;
     padding: 4px 8px;
     margin-bottom: 3px;
   }
+  .home-blurb {
+    margin: auto;
+  }
+  
   .contact .appointment {
     margin: 0px 10% 0px 14%;
   }
 }
 
 @media screen and (max-width: 705px) {
+  body {
+    padding: auto;
+  }
   nav {
     flex-direction: column;
     height: 140px;
@@ -379,5 +383,23 @@ margin-top: 25px;
   nav a {
     font-size: .9em;
   }
+  .home-images {
+    padding-top: 30%;
+  }
+  .home-blurb {
+    padding-top: 15%;
+  }
+  .see-baby {
+    padding-top: 30%;
+  }
+  .contact {
+    padding-top: 30%;
+    padding-bottom: 20%;
+  }
 }
+
+@media screen and (max-width: 575px) {
+  footer {
+    height: 80px;
+  }
 
