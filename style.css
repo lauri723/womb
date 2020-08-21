@@ -298,15 +298,23 @@ margin-top: 25px;
     width: auto;
     align-items: center;
   }
-  .pricelist h4 {
-    margin-bottom: 40px;
-  }
 }
 
 @media screen and (max-width: 1052px) {
   button.button {
     font-size: 1em;
     padding: 4px;
+  }
+  .body {
+    padding-bottom: 12%;
+  }
+  .home-images {
+    padding-top: 30%;
+    padding-bottom: 60%;
+  }
+  .contact {
+    padding-top: 20%;
+    padding-bottom: 60%;
   }
 }
 
@@ -345,13 +353,12 @@ margin-top: 25px;
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 770px) {
   .body {
-    height: calc(100vh - 42%);
+    height: calc(100vh - 45%);
+    padding-top: 5%;
   }
-  .home-images {
-    flex-direction: column;
-  }
+
   .home-p-and-p {
     flex-direction: column;
     justify-content: flex-start;
@@ -363,10 +370,13 @@ margin-top: 25px;
     padding: 4px 8px;
     margin-bottom: 3px;
   }
+  .home-images {
+    flex-direction: column;
+    padding-top: 8%;
+  }
   .home-blurb {
     margin: auto;
   }
-  
   .contact .appointment {
     margin: 0px 10% 0px 14%;
   }
@@ -399,7 +409,24 @@ margin-top: 25px;
 }
 
 @media screen and (max-width: 575px) {
+  body {
+    height: 100vh;
+  }
   footer {
     height: 80px;
   }
-
+  #images {
+    padding-top: 10%;
+    padding-bottom: 0px;
+  }
+  .look-forward {
+    font-size: 1.2em;
+  }
+  .pricelist {
+    padding-top: 10%;
+  }
+  .contact {
+    padding-top: 40%;
+    padding-bottom: 30%;
+  }
+}
