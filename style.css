@@ -130,7 +130,7 @@ nav a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 0%);
-  width: 26rem;
+  /* width: 26rem; */
   border: 2px solid #ff699b;
   border-radius: 4px;
 }
@@ -317,9 +317,9 @@ margin-top: 25px;
   .home-p-and-p {
     margin: 2% auto;
   }
-  .modal {
+  /* .modal {
     width: 23rem;
-  }
+  } */
   .home-paragraph {
     padding: 0px 0px;
   }
