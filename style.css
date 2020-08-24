@@ -315,11 +315,9 @@ footer {
   .home-p-and-p {
     margin: 2% auto;
   }
-  /* .modal {
-    width: 23rem;
-  } */
   .home-paragraph {
     padding: 0px 0px;
+    margin: 0px 20px;
   }
 }
 
