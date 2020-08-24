@@ -126,12 +126,12 @@ nav a:hover {
 .modal-dialog {
   border: 2px solid #ff699b;
   border-radius: 4px;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 26rem;
-}
+} */
 
 .modal-dialog .modal-content {
   border: none
@@ -319,9 +319,9 @@ margin-top: 25px;
   .home-p-and-p {
     margin: 2% auto;
   }
-  .modal {
+  /* .modal {
     width: 23rem;
-  }
+  } */
   .home-paragraph {
     padding: 0px 0px;
   }
